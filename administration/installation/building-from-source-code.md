@@ -4,6 +4,7 @@
 
 * Having linux OS or Linux subsystem for Windows
 * Superuser access \(sudo/root\) to execute all listed below commands/programs
+* Installed Git SCM, accessible using environment alias `git`
 * Installed PHP 7.3 with modules or, at least PHP 7.2  with modules, accessible using environment alias `php`
 * Installed Composer, accessible using environent alias `composer`
 * Installed NodeJS 11.x or higher version, accessible using enrivonment alias `node`
@@ -47,6 +48,30 @@ In you are sure in your environment compatibility, you can miss this step. In ot
     </tr>
   </tbody>
 </table>If everything is correct, continue to the next step.
+
+## 2. Cloning Hospital Information System Medkey source code
+
+Our main repository hosted on GitHub. To get latest version of source code, for example, to your home directory, use command:
+
+{% tabs %}
+{% tab title="Via SSH" %}
+```text
+cd ~
+git clone git@github.com:medkey-org/medkey.git
+```
+{% endtab %}
+
+{% tab title="Via HTTPS" %}
+```text
+cd ~
+git clone https://github.com/medkey-org/medkey.git
+```
+{% endtab %}
+{% endtabs %}
+
+After cloning your source code will be located at `~/medkey` directory. 
+
+## 3. Installing application dependencies
 
 
 
