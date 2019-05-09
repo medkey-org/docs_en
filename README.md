@@ -1,6 +1,12 @@
-# Main page
+---
+description: Hospital Information System Medkey
+---
 
-## Getting Super Powers
+# Medkey Documentation
+
+## Guides
+
+{% page-ref page="administration/installation/" %}
 
 Becoming a super hero is a fairly straight forward process:
 

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Main page](README.md)
+* [Medkey Documentation](README.md)
 
 ## Administration
 
