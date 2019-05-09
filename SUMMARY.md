@@ -7,7 +7,7 @@
 
 * [Installation](administration/installation/README.md)
   * [Installing using Docker](administration/installation/installing-using-docker.md)
-  * [Installing on Ubuntu/Debian](administration/installation/debian.md)
+  * [Installing on Debian/Ubuntu](administration/installation/debian.md)
   * [Building from source code](administration/installation/building.md)
 * [Configuration](administration/configuration.md)
 * [Command-line interface](administration/cli.md)

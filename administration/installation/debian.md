@@ -1,2 +1,2 @@
-# Installing on Ubuntu/Debian
+# Installing on Debian/Ubuntu
 
