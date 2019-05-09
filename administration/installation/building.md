@@ -8,13 +8,14 @@ description: >-
 
 ## **Prerequisites**
 
-* Having linux OS or Linux subsystem for Windows
+* Having any Linux OS, any Unix OS, Mac OS or Linux subsystem for Windows
 * Superuser access \(sudo/root\) to execute all listed below commands/programs
-* Installed Git SCM, accessible using environment alias `git`
-* Installed PHP 7.3 with modules or, at least PHP 7.2  with modules, accessible using environment alias `php`
-* Installed Composer, accessible using environent alias `composer`
-* Installed NodeJS 11.x or higher version, accessible using enrivonment alias `node`
-* Installed NPM 6.x or higher version, accessible using environment alias `npm`
+* Installed tar program, accessible using alias `tar`
+* Installed Git SCM, accessible using  alias `git`
+* Installed PHP 7.3 with modules or, at least PHP 7.2  with modules, accessible using alias `php`
+* Installed Composer, accessible using alias `composer`
+* Installed NodeJS 11.x or higher version, accessible using alias `node`
+* Installed NPM 6.x or higher version, accessible using alias `npm`
 
 ## **1. Checking environment**
 
