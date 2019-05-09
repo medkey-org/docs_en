@@ -1,3 +1,9 @@
+---
+description: >-
+  How to get custom manual distribution build of  Medkey Hospital Information
+  System
+---
+
 # Building from source code
 
 ## **Prerequisites**
@@ -51,27 +57,57 @@ In you are sure in your environment compatibility, you can miss this step. In ot
 
 ## 2. Cloning Hospital Information System Medkey source code
 
-Our main repository hosted on GitHub. To get latest version of source code, for example, to your home directory, use command:
+Our main repository hosted on GitHub. To get latest version of source code, for example, to your home directory \(`cd ~`\), and then execute command:
 
 {% tabs %}
 {% tab title="Via SSH" %}
 ```text
-cd ~
 git clone git@github.com:medkey-org/medkey.git
 ```
 {% endtab %}
 
 {% tab title="Via HTTPS" %}
 ```text
-cd ~
 git clone https://github.com/medkey-org/medkey.git
 ```
 {% endtab %}
 {% endtabs %}
 
-After cloning your source code will be located at `~/medkey` directory. 
+After cloning your source code will be located at `~/medkey` directory. You can specify any other suitable for you directory. Directory with Medkey repository files are named base application directory.
 
-## 3. Installing application dependencies
+## 3. Installing application dependencies using Composer
 
+Go to base application directory. There execute command:
 
+```text
+composer install
+```
+
+It will take some minutes, wait a bit.
+
+## 4. Installing frontend dependencies
+
+Go to directory frontend inside base application directory \(for example, `~/medkey/frontend`\). Then execute command:
+
+```text
+npm install
+```
+
+## 5. Building frontend bundles
+
+Go to directory frontend inside base application directory \(for example, `~/medkey/frontend`\). Then execute command:
+
+```text
+npm run build-dev
+```
+
+## 6. Packing built application
+
+Go to parent directory of base application directory \(fo `~/medkey` it will be `~`\). Execute command:
+
+```text
+tar -zcvf medkey.tar.gz medkey
+```
+
+After completion you will have built distribution of you application, which can be distributed on any server, and can be installed using [installation guides](./).
 
