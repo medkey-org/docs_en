@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Home](README.md)
+* [Medkey Documentation](README.md)
 * [What is HIS Medkey?](what-is-his-medkey.md)
 
 ## Administration
