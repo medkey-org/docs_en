@@ -1,10 +1,10 @@
 # Table of contents
 
-* [Medkey Documentation](README.md)
-* [What is HIS Medkey?](what-is-his-medkey.md)
+* [HIS Medkey Documentation](README.md)
 
 ## Administration
 
+* [Deployment schemes](administration/deployment-schemes.md)
 * [Installation](administration/installation/README.md)
   * [Installing using Docker](administration/installation/installing-using-docker.md)
   * [Installing on Debian/Ubuntu](administration/installation/debian.md)
