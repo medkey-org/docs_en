@@ -18,7 +18,7 @@ To use CLI entry point go to Medkey application directory \(where Medkey applica
 
 {% tabs %}
 {% tab title="Linux \(bash\)" %}
-For example, Medkey files located in `/var/www/medkey`. Execute command:
+For example, Medkey files located in `/var/www/medkey`. To go to Medkey deployment directory execute command:
 
 ```text
 cd /var/www/medkey
@@ -26,19 +26,39 @@ cd /var/www/medkey
 {% endtab %}
 
 {% tab title="Windows \(cmd/Powershell\)" %}
+For example, Medkey files located in `C:\htdocs\medkey`. Execute command:
+
 ```text
-cd /var/www/medkey
+cd C:\htdocs\medkey
 ```
 {% endtab %}
 {% endtabs %}
 
+To execute CLI commands use signature below:
 
+{% tabs %}
+{% tab title="Linux \(bash\)" %}
+```text
+php bin <command> <arguments>
+```
+{% endtab %}
+
+{% tab title="Windows \(cmd/Powershell\)" %}
+```text
+bin.bat <command> <arguments>
+```
+{% endtab %}
+{% endtabs %}
 
 ## Command reference
 
-### Installing migrations
+### `migrate` command
 
 Medkey use migration mechanism to deploy and upgrade database structure.
 
-### 
+### `seed` command
+
+Medkey use seed mechanism to fill database with predefined data packages.
+
+
 

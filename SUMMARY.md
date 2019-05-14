@@ -4,7 +4,6 @@
 
 ## Administration
 
-* [Deployment schemes](administration/deployment-schemes.md)
 * [Installation](administration/installation/README.md)
   * [Installing using Docker](administration/installation/installing-using-docker.md)
   * [Installing on Debian/Ubuntu](administration/installation/debian.md)
