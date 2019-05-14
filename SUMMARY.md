@@ -25,3 +25,7 @@
 * [Patients](features/patients.md)
 * [EHRs](features/ehrs.md)
 
+## Other languages
+
+* [Русский язык](https://docs.medkey.org/ru)
+
