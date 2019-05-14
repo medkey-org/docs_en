@@ -14,9 +14,17 @@ Medkey has modular and service oriented architecture. Box application can be ext
 
 Medkey is the most high available hospital information system which can be installed/deployed in two clicks using any modern operating system or platform. You can easily start with no money spends. You can adopt and customize Medkey to your needs. You can integrate it into your organization's ecosystem. You can grow and scale it using extensions. And you can customize it hiring anyone of thousands professional PHP specialists \(really very widespread language\). Check out for Medkey compliance to your needs!
 
-## Guides
+## Getting started
+
+If you want install Medkey — go to installation section:
 
 {% page-ref page="administration/installation/" %}
+
+{% page-ref page="administration/configuration.md" %}
+
+{% page-ref page="administration/users-and-acls.md" %}
+
+If you have been already installed Medkey, look at Quick start guide:
 
 {% page-ref page="getting-started/quick-start.md" %}
 
