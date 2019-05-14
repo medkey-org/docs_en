@@ -10,11 +10,9 @@ If you have resources on any hosting, then use hosting installation guide.
 
 ### Installation guides using distributive
 
-* [Installation using Docker](docker.md)
-* [Installation on Debian/Ubuntu](debian.md)
-* [Installation on CentOS](centos.md)
-* [Installation on Windows](windows.md)
-* [Installation on hosting](hosting.md)
+{% page-ref page="docker.md" %}
+
+{% page-ref page="debian.md" %}
 
 ### Building from the source code
 
