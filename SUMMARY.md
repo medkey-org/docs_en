@@ -20,9 +20,9 @@
 
 ## Features
 
+* [Authentication and authorization](features/untitled-1.md)
 * [Organizations and employees](features/organizations-and-employees.md)
 * [Dashboards](features/untitled.md)
 * [Patients](features/patients.md)
 * [EHRs](features/ehrs.md)
-* [Untitled](features/untitled-1.md)
 
