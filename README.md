@@ -16,7 +16,7 @@ Medkey is the most high available hospital information system which can be insta
 
 ## Getting started
 
-If you want install Medkey — go to installation section:
+If you want install Medkey — start using this sections:
 
 {% page-ref page="administration/installation/" %}
 
