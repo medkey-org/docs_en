@@ -19,7 +19,7 @@ This guide will provide you how to install Medkey using Docker on Linux and Wind
 
 ## Installation steps
 
-Execute commands below using repository \(require installed git\) or .tar.gz distribution.
+Execute commands below using repository \(require installed git\) or .tar.gz distribution. You can run these commands on Linux \(bash\) and Windows \(cmd/powershell\).
 
 {% tabs %}
 {% tab title="Using repository" %}
