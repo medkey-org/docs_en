@@ -1,7 +1,5 @@
 # Installing on Debian/Ubuntu
 
-
-
 ## Installing on Debian 9 Stretch
 
 ### Checkup before you start
